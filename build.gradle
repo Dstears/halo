@@ -10,6 +10,9 @@ group = "run.halo.app"
 version = "1.4.1"
 description = "Halo, An excellent open source blog publishing application."
 
+bootWar {
+    archiveFileName = 'ROOT.war'
+}
 java {
     archivesBaseName = "halo"
     sourceCompatibility = JavaVersion.VERSION_1_8
